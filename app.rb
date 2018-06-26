@@ -17,7 +17,12 @@ class App < Sinatra::Base
 
 end
 
-get '/goodbye/:name 
-  "Goodbye Mathew"
-end
-
+get '/:operation/:number1/:number2' do
+  @operation = params [:operation]
+  @number=params [:number1].to_1
+  @number=params [:number2].to_2
+  
+  if @operation == "add"
+    @number1 + @number2
+    elsif @operation == "subtract"
+    
