@@ -1,8 +1,0 @@
-tags:
-  - sinatra
-  - routes
-  - dynamic routes
-  - params
-languages:
-  - ruby
-parent_template: git@github.com:learn-co-curriculum/sinatra-dynamic-routes-codealong.git
