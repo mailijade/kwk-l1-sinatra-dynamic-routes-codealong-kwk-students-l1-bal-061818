@@ -25,4 +25,12 @@ get '/:operation/:number1/:number2' do
   if @operation == "add"
     @number1 + @number2
     elsif @operation == "subtract"
+    @number1 - @number2
+    elsif @operation == "multiply"
+    @number1 / @number2
+  else 
+    @number/ @number2
+  end
+end
+    
     
